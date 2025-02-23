@@ -766,8 +766,7 @@ nav {
   display: flex;
   min-height: 400px;
   padding: 4rem 2rem;
-  background: linear-gradient(to right, #ccc, rgba(255, 255, 255, 0.1)), 
-              url('../images/scan-background.jpg') center/cover no-repeat;
+  background: url('../images/Scan-background.jpg') center/cover no-repeat;
 }
 
 .scan-section h2 {
@@ -783,6 +782,7 @@ nav {
 }
 
 .qr-img {
+  z-index: 1000;
   width: 150px;
   height: 150px;
   object-fit: contain;
